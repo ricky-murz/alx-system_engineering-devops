@@ -1,5 +1,2 @@
 #!/bin/bash
-for file in [A-Z]*
-do
-  mv "$file" /tmp/u/"$file"
-done
+mv [A-Z]?* /tmp/u/

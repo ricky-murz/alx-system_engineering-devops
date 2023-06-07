@@ -1,13 +1,2 @@
 #!/bin/bash
-
-# List files in the current directory
-echo "Listing files in the current directory:"
-ls -la
-
-# List files in the parent directory of the working directory
-echo -e "\nListing files in the parent directory of the working directory:"
-ls -la ../
-
-# List files in the /boot directory
-echo -e "\nListing files in the /boot directory:"
-ls -la /boot
+ls -la && ls -la ../ && ls -la /boot

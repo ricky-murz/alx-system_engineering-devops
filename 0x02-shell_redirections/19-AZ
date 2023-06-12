@@ -1,0 +1,2 @@
+#!/bin/bash
+sed 's/\bA\b/Z/g; s/\bc\b/e/g' input_file
